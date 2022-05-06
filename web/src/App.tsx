@@ -1,8 +1,8 @@
-function App() {
+import React from 'react';
+import Widget from './components/Widget';
 
+export function App() {
   return (
-    <h1 className="bg-red-400">Hello World</h1>
+    <Widget />
   )
-}
-
-export default App
+};
